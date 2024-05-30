@@ -1,4 +1,4 @@
-// const don = document.selectELementById("don");
+// const hall of fame = document.selectELementById("don");
 
 // const won = document.querySelector("won");
 
