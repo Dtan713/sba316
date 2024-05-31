@@ -72,6 +72,7 @@ input[type=text], select, textarea {
   background: #03120f;
   color: rgb(19, 2, 2);
   font-size: 100px;
+  border-radius: 50%;
 } 
 
   
@@ -85,9 +86,16 @@ input[type=text], select, textarea {
 }
 
 #highlight{
-  color: yellow
+  color: rgb(208, 208, 19)
  
 }
+
+:root {
+  --main-bg: #4a4e4d;
+  --top-menu-bg: #0e9aa7;
+  --sub-menu-bg: #3da4ab;
+}
+
 
 
   

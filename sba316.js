@@ -1,23 +1,14 @@
-const collect = document.selectELementById("round");
+const form = document.getElementById ("form");
+console.log (form);
 
- const round = document.querySelector("round");
-
-// const firstChild = document.getElementsByName("first-Child");
-
-// const firstChildElement = firstChild.parentNode;
-
-// const elements = ["don", "won", "firstChild" ];
-//     for (let i = 0; i < elements.length; i++) {
-
-// const sun = document.createElement("sun");
-// mainEl.appendChild(sun);
-
-// let i = document.getElementById("sun");
-// let = cloneNode(sun);
+const firstName = document.getElementById ("fname");
+const lastName = document.getElementById ("lname"); 
+const Email = document.getElementById ("Email");
 
 
-
-//  }
- 
-
- 
+form.addEventListener("submit",(e)=>{
+    e.preventDefault()
+    console.log(firstName.value);
+    console.log(lastName.value);
+    console.log(Email.value);
+})
