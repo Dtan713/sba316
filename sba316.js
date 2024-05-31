@@ -16,7 +16,4 @@ form.addEventListener("submit",(e)=>{
     console.log(message); 
     let h1 = document.createElement ("h1");
     h1.innerText = `Thank you, ${firstName.value} ${lastName.value} ${OrderNumber.value} ${Email.value} ${message}
-    message.appendChild (h1);
-
-    // alert(`Thank you ${firstName.value}`)
-}
+    message.appendChild = (h1);
