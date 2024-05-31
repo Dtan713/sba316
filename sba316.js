@@ -1,6 +1,6 @@
-// const hall of fame = document.selectELementById("don");
+const collect = document.selectELementById("round");
 
-// const won = document.querySelector("won");
+ const round = document.querySelector("round");
 
 // const firstChild = document.getElementsByName("first-Child");
 
